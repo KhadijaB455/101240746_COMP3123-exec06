@@ -18,7 +18,7 @@ app.use(bodyParser.json());
 app.use('/docs', NoteRoutes)
 
 
-const DB_URL = "mongodb+srv://dbKhad:XsDgyaVPShvCWkqY@cluster0.ngjyla5.mongodb.net/f2023_comp3123?retryWrites=true&w=majority"
+const DB_URL = "mongodb+srv://dbKhad:Y@cluster0.ngjyla5.mongodb.net/f2023_comp3123?retryWrites=true&w=majority"
 
 mongoose.connect(DB_URL, {
     useNewUrlParser: true,
